@@ -21,7 +21,7 @@ pipeline {
 
     stage('shell-4') {
       steps {
-        sh '/opt/apache-maven-3.8.7/bin/mvn --version'
+        sh '/opt/apache-maven-3.8.7/bin/./mvn --version'
       }
     }
 
